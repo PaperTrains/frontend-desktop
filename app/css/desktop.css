@@ -1,5 +1,5 @@
 body {
-  background: #ffcc18 url("../images/ns_background.png") repeat center;
+  background: url("../images/train_bg.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,3 +7,67 @@ body {
   margin: 0;
   height: 100%;
   width: 100%; }
+
+.sidebar {
+  background: #ffcc18 url("../images/ns_background.png") repeat center;
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  left: 0;
+  bottom: 0;
+  border-radius: 4px; }
+  .sidebar .sidebar-header {
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  .sidebar .recently-posted {
+    font-family: NSSANBOL;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.71;
+    letter-spacing: 2px;
+    color: #000066;
+    margin-top: 50px;
+    margin-left: 12px;
+    text-decoration: underline; }
+  .sidebar .recently-liked {
+    font-family: NSSANBOL;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.71;
+    letter-spacing: 2px;
+    color: #000066;
+    margin-left: 12px;
+    text-decoration: underline; }
+  .sidebar .tilted-container {
+    background-image: url("../images/Blue_Slope.png");
+    height: 180px;
+    position: absolute;
+    width: 100%;
+    bottom: -66px;
+    left: 0px;
+    margin-top: 34px; }
+    .sidebar .tilted-container .t-container-text {
+      color: white;
+      font-size: 12px;
+      line-height: 27px;
+      font-family: NSSANBOL;
+      margin: 40px auto 0 50px;
+      width: 80%;
+      -ms-transform: rotate(-6deg);
+      -webkit-transform: rotate(-6deg);
+      transform: rotate(-6deg); }
+
+.provinces {
+  background: grey;
+  opacity: 0.8;
+  position: absolute;
+  width: 45%;
+  margin-top: 50px;
+  height: 80%;
+  right: 100px;
+  border-radius: 15px; }
+
+@font-face {
+  font-family: NSSANBOL;
+  src: url("../fonts/NSSANBOL.TTF") format("opentype"); }
