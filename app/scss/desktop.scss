@@ -20,6 +20,10 @@ body {
     right: 0;
 }
 
+.logo-image {
+    width: 140px;
+}
+
 .sidebar {
     background: #ffcc18 url("../images/ns_background.png") repeat center;
     position: fixed;
@@ -30,79 +34,90 @@ body {
     border-radius: 4px;
 
     .sidebar-header {
-        position: absolute;
-        top: 0;
         width: 100%;
-    }
-
-    .recently-posted {
-        font-family: NSSANBOL;
-        font-size: 15px;
-        font-weight: 600;
-        line-height: 1.71;
-        letter-spacing: 2px;
-        color: #000066;
-        margin-top: 50px;
-        margin-left: 12px;
-        text-decoration: underline;
+        margin-top: -10px;
     }
 
     .recently-liked {
-        font-family: NSSANBOL;
-        font-size: 15px;
-        font-weight: 600;
-        line-height: 1.71;
-        letter-spacing: 2px;
-        color: #000066;
-        margin-left: 12px;
-        text-decoration: underline;
+        margin-left: 10px;
+        height: 320px;
+         span {
+            font-family: NSSANBOL;
+            font-size: 32px;
+            color: #000066;
+            height: 1px;
+             border-bottom: solid 1px #000066;
+             padding: 0 190px 5px 10px;
+        }
+    }
+
+    .recently-posted {
+        margin: 20px 0 0 10px;
+        height: 320px;
+        span {
+            font-family: NSSANBOL;
+            font-size: 32px;
+            color: #000066;
+            height: 1px;
+            border-bottom: solid 1px #000066;
+            padding: 0 310px 5px 10px;
+        }
     }
 
     .tilted-container {
-        background-image: url("../images/Blue_Slope.png");
-        height: 180px;
+        background: url('../images/Blue_Slope.png') no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 290px;
         position: absolute;
         width: 100%;
         bottom: -66px;
         left: 0px;
-        margin-top: 34px;
 
-        .t-container-text  {
-            color: white;
-            font-size: 12px;
-            line-height: 27px;
-            font-family: NSSANBOL;
-            margin: 40px auto 0 50px;
-            width: 80%;
+        .tilted-container-text {
             -ms-transform: rotate(-6deg);
             -webkit-transform: rotate(-6deg);
-            transform: rotate(-6deg)
+            transform: rotate(-6deg);
+            width: 310px;
+            margin: 70px auto;
+
+            .t-container-text  {
+                color: white;
+                font-size: 32px;
+                line-height: 58px;
+                font-family: NSSANBOL;
+                //margin: 40px auto 0 50px;
+                width: 80%;
+            }
         }
     }
 }
 
 #provinces {
-    background: grey;
-    opacity: 0.8;
-    width: 50%;
-    border: .4px grey;
-    margin-top: 50px;
+    width: 54%;
+    margin-top: 120px;
     margin-left: 35%;
-    height: 80%;
-    border-radius: 15px;
+    height: 800px;
+    border-radius: 50px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
 
     .province-title {
-        color: white;
-        font-size: 20px;
-        line-height: 27px;
         font-family: NSSANBOL;
-        text-align: center;
+        font-size: 36.5px;
+        font-weight: bold;
+        letter-spacing: 4.2px;
+        text-align: left;
+        color: #ffffff;
+        padding: 20px 0 0 30px;
     }
 
     #province {
-        opacity: none;
-        width: 90%;
-        margin: 0 auto;
+        width: 753px;
+        margin: 180px auto;
     }
 }
 

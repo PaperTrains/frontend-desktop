@@ -16,93 +16,50 @@
         <div class="sidebar">
             <img src="./app/images/H1.png" class="sidebar-header">
             <div class="recently-posted">
-              <h3>Net geplaatst</h3>
+              <span>Net geplaatst</span>
             </div>
             <div class="recently-liked">
-               <h3>Meest leuk gevonden</h3>
+               <span>Meest leuk gevonden</span>
             </div>
             <div class="tilted-container">
-                <span class="t-container-text">Doe mee! Bezoek</span><br>
-                <span class="t-container-text">www.papertrains.nl</span>
+                <div class="tilted-container-text">
+                    <span class="t-container-text">Doe mee! Bezoek</span><br>
+                    <span class="t-container-text">www.papertrains.nl</span>
+                </div>
             </div>
         </div>
-
         <div id="provinces-container">
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
+                    <img src="./app/images/brabant.png" >
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
+                    <img src="./app/images/brabant.png" >
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
+                    <img src="./app/images/brabant.png" >
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
+                    <img src="./app/images/brabant.png" >
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
+                    <img src="./app/images/brabant.png" >
                 </div>
             </div>
-            <div id="provinces">
-                <h2 class="province-title">Noord-Brabant</h2>
-                <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
-                </div>
-            </div>
-            <div id="provinces">
-                <h2 class="province-title">Noord-Brabant</h2>
-                <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
-                </div>
-            </div>
-            <div id="provinces">
-                <h2 class="province-title">Noord-Brabant</h2>
-                <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
-                </div>
-            </div>
-            <div id="provinces">
-                <h2 class="province-title">Noord-Brabant</h2>
-                <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
-                </div>
-            </div>
-            <div id="provinces">
-                <h2 class="province-title">Noord-Brabant</h2>
-                <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
-                </div>
-            </div>
-            <div id="provinces">
-                <h2 class="province-title">Noord-Brabant</h2>
-                <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
-                </div>
-            </div>
-            <div id="provinces">
-                <h2 class="province-title">Noord-Brabant</h2>
-                <div id="province">
-                    <img src="./app/images/brabant.png" id="province">
-                </div>
-            </div>  
         </div>
-                 
-        
     </div>
     <script src="./app/js/lib/jquery-3.2.1.min.js"></script>
   <script src="./app/js/main.js"></script>
