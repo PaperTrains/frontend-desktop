@@ -12,6 +12,10 @@ body {
   font-family: NSSANBOL;
   src: url("../fonts/NSSANBOL.TTF") format("opentype"); }
 
+@font-face {
+  font-family: Noteworthy-Light;
+  src: url("../fonts/Noteworthy-Light.ttf") format("opentype"); }
+
 .logo-top {
   position: fixed;
   top: 0;
@@ -19,6 +23,36 @@ body {
 
 .logo-image {
   width: 140px; }
+
+.polaroid-mini {
+  margin-top: 30px;
+  width: 170px; }
+
+.polaroid-picture {
+  background: url(../images/Polaroid_GROOT.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 317px;
+  height: 324px;
+  display: inline-block;
+  position: relative; }
+  .polaroid-picture .image {
+    width: 270px;
+    height: 230px;
+    position: relative;
+    left: 26px;
+    top: 26px; }
+  .polaroid-picture .image-text {
+    font-size: 14px;
+    position: absolute;
+    top: 270px;
+    left: 25px;
+    text-align: left;
+    width: 270px;
+    font-family: Noteworthy-Light;
+    color: #000066; }
 
 .sidebar {
   background: #ffcc18 url("../images/ns_background.png") repeat center;
@@ -92,6 +126,6 @@ body {
     text-align: left;
     color: #ffffff;
     padding: 20px 0 0 30px; }
-  #provinces #province {
+  #provinces #province, #provinces #province-noord-brabant {
     width: 753px;
     margin: 180px auto; }

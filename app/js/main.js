@@ -19,17 +19,28 @@ function ProcessData(data)
     var array = jQuery.parseJSON(data);
 
     $.each(array, function(key,value){
-        resultHtml+='<div class="polaroid-picture">';
+        var randomX = getRandomInt(-50, 350);
+        var randomY = getRandomInt(-400, -650)
+
+        resultHtml+='<div style="' + 'top:' + randomY +  'px; left:' + randomX +  'px;" class="polaroid-picture">';
         resultHtml+='<img class="image" src="' + value.path + '">';
         resultHtml+='<span class="image-text">' + value.message + '</span>';
         resultHtml+='</div>';
     });
 
     $("#province-noord-brabant").append(resultHtml);
-
-    console.log(resultHtml);
 }
 
+/**
+ * Get a random integer between `min` and `max`.
+ *
+ * @param {number} min - min number
+ * @param {number} max - max number
+ * @return {int} a random integer
+ */
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min     + 1) + min);
+}
 
 
 
