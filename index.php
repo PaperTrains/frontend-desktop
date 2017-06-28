@@ -32,72 +32,84 @@
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" id="province">
+                    <img src="" id="provinceImage">
                 </div>
             </div>  
         </div>
