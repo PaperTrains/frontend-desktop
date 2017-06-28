@@ -10,7 +10,7 @@
     <div class="main-container">
 
         <div class="logo-top">
-            <img src="./app/images/NS_Logo.png" class="logo-image">
+            <img src="./app/images/NS_logo.png" class="logo-image">
         </div>
 
         <div class="sidebar">
