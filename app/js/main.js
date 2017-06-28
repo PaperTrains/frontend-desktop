@@ -21,7 +21,7 @@ function ProcessData(data)
     $.each(array, function(key,value){
         resultHtml+='<div class="polaroid-picture">';
         resultHtml+='<img class="image" src="' + value.path + '">';
-        resultHtml+='<span class="image-text">' + value.message + '"</span>';
+        resultHtml+='<span class="image-text">' + value.message + '</span>';
         resultHtml+='</div>';
     });
 
