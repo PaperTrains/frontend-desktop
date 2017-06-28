@@ -8,9 +8,18 @@ body {
   height: 100%;
   width: 100%; }
 
+@font-face {
+  font-family: NSSANBOL;
+  src: url("../fonts/NSSANBOL.TTF") format("opentype"); }
+
+.logo-top {
+  position: fixed;
+  top: 0;
+  right: 0; }
+
 .sidebar {
   background: #ffcc18 url("../images/ns_background.png") repeat center;
-  position: absolute;
+  position: fixed;
   width: 30%;
   height: 90%;
   left: 0;
@@ -58,16 +67,22 @@ body {
       -webkit-transform: rotate(-6deg);
       transform: rotate(-6deg); }
 
-.provinces {
+#provinces {
   background: grey;
   opacity: 0.8;
-  position: absolute;
-  width: 45%;
+  width: 50%;
+  border: .4px grey;
   margin-top: 50px;
+  margin-left: 35%;
   height: 80%;
-  right: 100px;
   border-radius: 15px; }
-
-@font-face {
-  font-family: NSSANBOL;
-  src: url("../fonts/NSSANBOL.TTF") format("opentype"); }
+  #provinces .province-title {
+    color: white;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: NSSANBOL;
+    text-align: center; }
+  #provinces #province {
+    opacity: none;
+    width: 90%;
+    margin: 0 auto; }
