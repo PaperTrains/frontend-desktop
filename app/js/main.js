@@ -1,23 +1,23 @@
 $(document).ready(function() {
-    functions.getImageData();
+    
+    var images = $('#provinceImage');
+    var data = new Array();
+    console.log(data);
+    data.attr(images, 'src');
 
-    var functions = {
-        
-        getImageData : function() {
-            var apiRequest = API.apiRequest ("GET", API.endPoints.get);
-            console.log(API);
-            console.log(apiRequest);
-            return apiRequest;
-        }
-    }
 
-    function listImages(images) {
-        console.log(images.image);
-        if(images) {
-            $("#provinceImage").attr("src", images.image);
-            console.log(images);
+    $.ajax({
+        type: 'GET',
+        url: "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper_trains/images/api/get.php",
+        success: function(jsonData){
+            var jsonArray = jsonData;
+            // after uploading, process the photo
+            console.log(jsonData);
+        },
+        error: function(jqxhr,textStatus,errorThrown) {
+            console.log("Fout: Uploaden mislukt." + jqxhr + textStatus + errorThrown);
         }
-    }
+    });
 });
 
 
