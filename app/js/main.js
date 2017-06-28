@@ -2,12 +2,12 @@ $(document).ready(function() {
 
     $.ajax({
         type: 'GET',
-        url: "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper_trains/images/api/get.php",
+        url: "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper-trains/images/api/get.php",
         success: function(jsonData){
             ProcessData(jsonData);
         },
         error: function(jqxhr,textStatus,errorThrown) {
-            console.log("Fout: Uploaden mislukt." + jqxhr + textStatus + errorThrown);
+            console.log("Could not load image." + jqxhr + textStatus + errorThrown);
         }
     });
 });
