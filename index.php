@@ -36,25 +36,25 @@
                 </div>
             </div>
             <div id="provinces">
-                <h2 class="province-title">Noord-Brabant</h2>
+                <h2 class="province-title">Zuid-Holland</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" >
                 </div>
             </div>
             <div id="provinces">
-                <h2 class="province-title">Noord-Brabant</h2>
+                <h2 class="province-title">Utrecht</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" >
                 </div>
             </div>
             <div id="provinces">
-                <h2 class="province-title">Noord-Brabant</h2>
+                <h2 class="province-title">Groningen</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" >
                 </div>
             </div>
             <div id="provinces">
-                <h2 class="province-title">Noord-Brabant</h2>
+                <h2 class="province-title">Friesland</h2>
                 <div id="province">
                     <img src="./app/images/brabant.png" >
                 </div>
