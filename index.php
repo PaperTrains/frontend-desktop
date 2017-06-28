@@ -31,7 +31,7 @@
         <div id="provinces-container">
             <div id="provinces">
                 <h2 class="province-title">Noord-Brabant</h2>
-                <div id="province">
+                <div id="province-noord-brabant">
                     <img src="./app/images/brabant.png" >
                 </div>
             </div>
