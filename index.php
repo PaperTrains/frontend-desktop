@@ -17,15 +17,15 @@
             <img src="./app/images/H1.png" class="sidebar-header">
             <div class="recently-posted">
               <span>Net geplaatst</span>
-              <img src="./app/images/amsterdam.png">
-              <img src="./app/images/amsterdam.png">
-              <img src="./app/images/amsterdam.png">
+              <img class="polaroid-mini" src="./app/images/left_polaroid.png">
+              <img class="polaroid-mini" src="./app/images/amsterdam.png">
+              <img class="polaroid-mini" src="./app/images/right_polaroid.png">
             </div>
             <div class="recently-liked">
                <span>Meest leuk gevonden</span>
-               <img src="./app/images/vrouw_pet.png">
-               <img src="./app/images/open_train.png">
-               <img src="./app/images/man_pet.png">
+               <img class="polaroid-mini" src="./app/images/vrouw_pet.png">
+               <img class="polaroid-mini" src="./app/images/open_train.png">
+               <img class="polaroid-mini" src="./app/images/man_pet.png">
             </div>
             <div class="tilted-container">
                 <div class="tilted-container-text">
