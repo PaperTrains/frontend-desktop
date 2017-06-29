@@ -1,6 +1,6 @@
 $(document).ready(function() {
-
     GetData();
+    setInterval(GetData, 10000);
 });
 
 function ProcessData(data)
@@ -22,7 +22,7 @@ function ProcessData(data)
     $("#province-noord-brabant-pictures").empty();
     $("#province-noord-brabant-pictures").append(resultHtml);
 
-    setInterval(GetData, 10000);
+
 }
 
 function GetData()
