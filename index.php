@@ -39,6 +39,8 @@
                 <h2 class="province-title">Noord-Brabant</h2>
                 <div id="province-noord-brabant">
                     <img src="./app/images/brabant.png" >
+                    <div id="province-noord-brabant-pictures">
+                    </div>
                 </div>
             </div>
             <div id="provinces">

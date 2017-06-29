@@ -1,15 +1,6 @@
 $(document).ready(function() {
 
-    $.ajax({
-        type: 'GET',
-        url: "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper-trains/images/api/get.php",
-        success: function(jsonData){
-            ProcessData(jsonData);
-        },
-        error: function(jqxhr,textStatus,errorThrown) {
-            console.log("Could not load image." + jqxhr + textStatus + errorThrown);
-        }
-    });
+    GetData();
 });
 
 function ProcessData(data)
@@ -28,7 +19,24 @@ function ProcessData(data)
         resultHtml+='</div>';
     });
 
-    $("#province-noord-brabant").append(resultHtml);
+    $("#province-noord-brabant-pictures").empty();
+    $("#province-noord-brabant-pictures").append(resultHtml);
+
+    setInterval(GetData, 10000);
+}
+
+function GetData()
+{
+    $.ajax({
+        type: 'GET',
+        url: "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper-trains/images/api/get.php",
+        success: function(jsonData){
+            ProcessData(jsonData);
+        },
+        error: function(jqxhr,textStatus,errorThrown) {
+            console.log("Could not load image." + jqxhr + textStatus + errorThrown);
+        }
+    });
 }
 
 /**
